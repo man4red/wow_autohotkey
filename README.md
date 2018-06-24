@@ -6,6 +6,6 @@ Example:
 2. If key "1" held more than 500ms -> Key "1" will be sent with a small delay until key is released
 3. If key "1" released -> Key "1" with an action "up" will be sent
 
-It could be useful for the games where you should furiously press a dam buttons ASAP  
+It could be useful for the games where you should furiously press those dam buttons ASAP  
 Originally written for World Of Warcraft  
 Use at your own risk  
