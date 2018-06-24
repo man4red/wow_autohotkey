@@ -20,9 +20,7 @@ SendKey(keySent){
         if (A_TickCount-now > TickCountWait)
         {
             Send {%keySent%}
-            ;tooltip sent
             Random, random, %RandomSleepMin%, %RandomSleepMax%
-            ;tooltip %random%
             Sleep random
         }
     Send {%keySent% up}
